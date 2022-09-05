@@ -1,0 +1,116 @@
+.blog_post{
+    background-color: #edecec;
+    width: 100%;
+    height: auto;
+}
+.blog{
+    color:#eb582b;
+}
+.blog_title{
+    text-align: center;
+    padding-top: 3rem;
+}
+.blog_lorem{
+    text-align: center;
+}
+
+.first_blog{
+    padding-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+
+
+.card {
+    width: 50%;
+    height: 433px;
+    background-color: #fff;
+    position: absolute;
+    top: -45px;
+    left: 252px;
+}
+
+.card_title_blog{
+    padding-top: 40px;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-right: .675rem;
+}
+.the_forest{
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.link{
+    margin-left: 1rem;
+    
+}
+#hover_effect {
+    background-color: #fff;
+    opacity: .4;
+    width: 234px;
+    height: 308px;
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+
+#hover_effect{
+    display: none;
+}
+.the_forest{
+    text-overflow: ellipsis;
+}
+.learn_more{
+    text-decoration: none;
+    
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.link{
+    background-color: #eb582b;
+    width: 150px;
+}
+#hover_effect2 {
+    background-color: #fff;
+    opacity: .4;
+    width: 234px;
+    height: 308px;
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+#hover_effect2{
+    display: none;
+}
+
+.date1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 60px;
+    left: 202px;
+}
+.date2 {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    top: 113px;
+    left: 202px;
+}
+
+@media screen and (max-width:767px) {
+    .card {
+        position: absolute;
+        left: 46px;
+        width: 65%;
+        top: 360px;
+    }
+    .img2{
+        position: absolute;
+        top: 10px;
+    }   
+}
